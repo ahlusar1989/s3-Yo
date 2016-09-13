@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/",
+    "page": "./pages/home",
+    "chunk": "main",
+    "data": {
+      "articles": "GET https://gist.githubusercontent.com/ahlusar1989/239d6eac6e3dde48da27d8a29aae637a/raw/b8cf86a3116dd2843cb813b0d367a92d3f2df385/articles.json"
+    }
+  },
+  {
+    "path": "/error",
+    "page": "./pages/error",
+    "chunk": "main"
+  },
+  {
+    "path": "/about",
+    "page": "./pages/about"
+  },
+  {
+    "path": "/results",
+    "page": "./pages/results"
+  },
+  {
+    "path": "/tasks/:status(pending|completed)?",
+    "page": "./pages/home"
+  }
+]
